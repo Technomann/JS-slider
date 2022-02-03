@@ -1,0 +1,12 @@
+.slider-content{
+    display: none;
+}
+
+.slider-content.default{
+    display: block;
+}
+
+.slider-dot.default{
+    filter: invert(21%) sepia(69%) saturate(7055%) hue-rotate(355deg) brightness(103%) contrast(122%);
+    /*ONLY BECAUSE OF SVG IMAGE*/
+}
