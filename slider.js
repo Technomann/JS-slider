@@ -63,3 +63,4 @@ function showSlide(){
     interval = setInterval(changeSlide, sliderAutoplayTime);
 })();
 
+//By @retirem - 02.02.2022.
