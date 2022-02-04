@@ -1,26 +1,47 @@
-<!--SLIDES-->
-<div class="slider-content default"><!--DEAFULT TO SHOWN ON SITE LOAD-->>
-	<!--YOUR HTML CONTENT GOES HERE-->>
-</div>
-<div class="slider-content"><!--DEAFULT TO SHOWN ON SITE LOAD-->>
-	<!--YOUR HTML CONTENT GOES HERE-->>
-</div>
-<!--SLIDES END-->
+<div id="slider">
+	<!--SLIDES-->
+	<div class="slider-content default"><!--DEAFULT TO SHOWN ON SITE LOAD-->
+		<!--YOUR SLIDER CONTENT GOES HERE-->
+		<img class="slider-image" src="slide1.jpg" alt="">
+		<div class="slider-text">
+		    <div class="slider-title-container"> 
+			 <h1 class="slider-title">LOREM IPSUM DOLOR SIT AMET, CONSETETUR</h1>
+		    </div>
+		    <div class="slider-parag new-layer"> 
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+			<a class="uppercase slider-button" href="#">Lorem ipsum</a>
+		    </div>
+		</div>
+	</div>
+	<div class="slider-content"><!--DEAFULT TO SHOWN ON SITE LOAD-->
+		<!--YOUR SLIDER CONTENT GOES HERE-->
+		<img class="slider-image" src="slide2.jpg" alt="">
+		<div class="slider-text">
+		    <div class="slider-title-container"> 
+			 <h1 class="slider-title">LOREM IPSUM DOLOR SIT AMET, CONSETETUR</h1>
+		    </div>
+		    <div class="slider-parag new-layer"> 
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+			<a class="uppercase slider-button" href="#">Lorem ipsum</a>
+		    </div>
+		</div>
+	</div>
+	<!--SLIDES END-->
 
-<!--DOTS-->
-<div id="slider-dot-container">
-	<img class="slider-dot default" src="REPLACE WITH IMAGE PATH - THIS IMAGE WILL BE SHOWN FOR CURRENT SLIDE" onclick="changeSlideByDot(0)"/>
-	<img class="slider-dot" src="REPLACE WITH IMAGE PATH" onclick="changeSlideByDot(1)"/>
-	<img class="slider-dot" src="REPLACE WITH IMAGE PATH" onclick="changeSlideByDot(2)"/>
-</div>
-<!--DOTS END-->
+	<!--DOTS-->
+	<div id="slider-dot-container">
+		<img class="slider-dot default" src="red_dot.svg" onclick="changeSlideByDot(0)"/>
+		<img class="slider-dot" src="dot.svg" onclick="changeSlideByDot(1)"/>
+		<img class="slider-dot" src="dot.svg" onclick="changeSlideByDot(2)"/>
+	</div>
+	<!--DOTS END-->
 
-<!--ARROWS-->
-<div id="slider-controls">
-	<img class="slider-arrow" src="REPLACE WITH IMAGE PATH" onclick="changeSlideByArrow(false)"/>
-	<img class="slider-arrow" src="REPLACE WITH IMAGE PATH" onclick="changeSlideByArrow(true)"/>
+	<!--ARROWS-->
+	<div id="slider-controls">
+		<img class="slider-arrow" src="left_arrow.svg" onclick="changeSlideByArrow(false)"/>
+		<img class="slider-arrow" src="right_arrow.svg" onclick="changeSlideByArrow(true)"/>
+	</div>
+	<!--ARROWS END-->
 </div>
-<!--ARROWS END-->
-
 <!--OF COURSE THE CONTROL ELEMENTS CAN BE REPLACED WITH OTHER ELEMENTS-->>
 <!-- By @retirem - 02.02.2022. -->
