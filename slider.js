@@ -45,9 +45,9 @@ function showSlide(){
     //DOTS
     var dots = document.getElementsByClassName('slider-dot');
     for(let i = 0; i < dots.length; ++i){
-        dots[i].style.filter = "none";
+        dots[i].src = "NORMAL DOT IMAGE URL (relatively to DOM)";
     }
-    dots[sliderCount].style.filter = "invert(21%) sepia(69%) saturate(7055%) hue-rotate(355deg) brightness(103%) contrast(122%)"; //SVG images were used, that is the reason for filter - CHANGE if needed
+    dots[sliderCount].src = "CURRENT-SLIDER-DOT IMAGE URL (relatively to DOM)";
     //DOTS END
 
     //SLIDES
