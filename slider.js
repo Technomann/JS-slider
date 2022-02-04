@@ -45,9 +45,9 @@ function showSlide(){
     //DOTS
     var dots = document.getElementsByClassName('slider-dot');
     for(let i = 0; i < dots.length; ++i){
-        dots[i].src = "NORMAL DOT IMAGE URL (relatively to DOM)";
+        dots[i].src = "dot.svg";
     }
-    dots[sliderCount].src = "CURRENT-SLIDER-DOT IMAGE URL (relatively to DOM)";
+    dots[sliderCount].src = "red_dot.svg)";
     //DOTS END
 
     //SLIDES
