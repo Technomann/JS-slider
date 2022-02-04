@@ -1,3 +1,11 @@
+.slider, .new-layer{
+    position: relative;
+}
+
+.flexbox{
+    display: flex;
+}
+
 .slider-content{
     display: none;
 }
@@ -9,5 +17,62 @@
 .slider-dot, .slider-arrow{
     cursor: pointer;
 }
+
+.slider-image{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.slider-text{
+    width: 33%;
+    min-height: 240px;
+    margin-left: 150px;
+    top: 38%;
+    position: absolute;
+}
+
+.slider-title-container{
+    padding: 10px 80px 10px 40px;
+}
+
+.slider-title{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.slider-parag p{
+    padding: 20px 40px 0 40px;
+    margin-bottom: 40px;
+}
+
+.slider-button{
+    position: absolute;
+    bottom: -65px;
+    left: 40px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+#slider-dot-container {
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+}
+
+.slider-dot, .slider-arrow{
+    cursor: pointer;
+}
+
+#slider-controls {
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+    padding: 0 50px;
+}
+
 
 /*By @retirem - 02.02.2022.*/
