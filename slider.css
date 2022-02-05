@@ -8,10 +8,15 @@
 
 .slider-content{
     display: none;
+    transition: 1s; /*Time of fade-in/out*/
 }
 
 .slider-content.default{
     display: block;
+}
+
+#slider-container{
+    height: 800px;
 }
 
 .slider-dot, .slider-arrow{
