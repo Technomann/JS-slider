@@ -52,15 +52,21 @@ function showSlide(){
 
     //SLIDES
     var slides = document.getElementsByClassName('slider-content');
-    for(let i = 0; i < slides.length; ++i)
-        slides[i].style.display = "none";
     slides[sliderCount].style.display = 'block';
+    //slides[sliderCount].style.opacity = '1'; USE IF FADE-IN/OUT ANIMATION WANTED
+    
+    for(let i = 0; i < slides.length; ++i)
+        if(i != sliderCount)
+            slides[i].style.display = "none";
+            //slides[i].style.opacity = "0"; USE IF FADE-IN/OUT ANIMATION WANTED
+    
     //SLIDES END
 }
 
 
 (function(){
-    interval = setInterval(changeSlide, sliderAutoplayTime);
+    //if(document.body.classList.contains('PAGE_CLASS_NAME')) USE IF YOU WANT SLIDER ONLY ON SPECIFIC PAGE (give the wanted page a specific class name)
+        interval = setInterval(changeSlide, sliderAutoplayTime);
 })();
 
 //By @retirem - 02.02.2022.
