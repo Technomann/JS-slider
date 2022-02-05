@@ -1,7 +1,7 @@
 var sliderCount = 0;
-let sliderPages = 3; //Amount of slides you have (.slider-content class) - CHANGE if needed
+const sliderPages = 3; //Amount of slides you have (.slider-content class) - CHANGE if needed
+const sliderAutoplayTime = 4000; //Atuoplay time in millisecs - CHANGE if needed
 
-let sliderAutoplayTime = 4000; //Atuoplay time in millisecs - CHANGE if needed
 var interval;
 
 function changeSlide(next = true){
