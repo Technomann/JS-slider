@@ -47,7 +47,7 @@ function showSlide(){
     for(let i = 0; i < dots.length; ++i){
         dots[i].src = "dot.svg";
     }
-    dots[sliderCount].src = "red_dot.svg)";
+    dots[sliderCount].src = "red_dot.svg";
     //DOTS END
 
     //SLIDES
