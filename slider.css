@@ -81,5 +81,26 @@
     top: 400px;
 }
 
+/*IF YOU WANT FADE-IN-OUT animation
+.fade-in{
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fade-out{
+    animation: fadeOut 2s;
+}
+
+@keyframes fadeOut{
+    0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+*/
+
 
 /*By @retirem - 02.02.2022.*/
