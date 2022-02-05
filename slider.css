@@ -7,16 +7,11 @@
 }
 
 .slider-content{
-    display: none; /* FOR FADE-IN/OU CHANGE THIS TO: opacity: 0;*/
-    transition: 1s; /*Time of fade-in/out*/
+    display: none; 
 }
 
 .slider-content.default{
-    display: block; /* FOR FADE-IN/OU CHANGE THIS TO: opacity: 1;*/
-}
-
-#slider-container{
-    height: 800px;
+    display: block; 
 }
 
 .slider-dot, .slider-arrow{
