@@ -7,12 +7,12 @@
 }
 
 .slider-content{
-    display: none;
+    display: none; /* FOR FADE-IN/OU CHANGE THIS TO: opacity: 0;*/
     transition: 1s; /*Time of fade-in/out*/
 }
 
 .slider-content.default{
-    display: block;
+    display: block; /* FOR FADE-IN/OU CHANGE THIS TO: opacity: 1;*/
 }
 
 #slider-container{
